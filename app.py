@@ -9,7 +9,7 @@ def index():
     
 @app.route('/login',methods = ['POST', 'GET']) 
 def login(): 
-   if request.method == 'POST' and request.form['txtemail'] == 'tutorial101@blogspot.com' and request.form['txtpass'] == 'ednalan' :
+   if request.method == 'POST' and request.form['txtemail'] == 'example@example.com' and request.form['txtpass'] == 'Password' :
       return redirect(url_for('success'))
    else:
       return redirect(url_for('errorlogin'))
