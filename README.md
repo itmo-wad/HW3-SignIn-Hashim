@@ -1,2 +1,2 @@
 # HW3-SignIn-Hashim
-Sign in and Sign up page with animation and login redirect to a secret page
+An animated and responsive sign in/ sign up page with login redirect to a secret page
